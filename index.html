@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MEDP 331 Class Assignment 4</title>
+        <style type="text/css">
+
+            /* Google font */
+            @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap');
+        
+            body {
+                margin: 40px;
+                font-family: 'Cairo', sans-serif;
+            }
+
+            .wrapper {
+                display: grid;
+                grid-template-columns: 400px 400px 400px;
+                grid-gap: 10px;
+                background-color: #fff;
+                /*color: #444;*/
+                text-align: center;
+                margin-left: 5vw;
+            }
+
+            .box1{
+                background-color: #EAE4E9;
+                color: #645e63;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+            .box2 {
+                background-color: #FFF1E6;
+                color: #61554c;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;  
+            }
+
+            .box3 {
+                background-color: #FDE2E4;
+                color: #7e6365;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+            .box4 {
+                background-color: #FAD2E1;
+                color: #7e606b;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+            .box5 {
+                background-color: #E2ECE9;
+                color: #54635e;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+            .box6 {
+                background-color:#BEE1E6;
+                color:#4c6164;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+            .box7 {
+                background-color:#F0EFEB;
+                color:#646157;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+            .box8 {
+                background-color:#DFE7FD;
+                color:#535a6b;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+            .box9 {
+                background-color:#CDDAFD;
+                color:#4e566b;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 150%;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="box1" id ="demo"></div>
+            <div class="box2" id ="demo2"></div>
+            <div class="box3" id ="demo3"></div>
+            <div class="box4" id ="demo4"></div>
+            <div class="box5" id ="demo5"></div>
+            <div class="box6" id ="demo6"></div>
+            <div class="box7" id="demo7"></div>
+            <div class="box8" id="demo8"></div>
+            <div class="box9" id="demo9"></div>
+        </div>
+
+
+        <script>
+            document.getElementById("demo").innerHTML = "I'm feeling spooky.";
+            console.log("I'm feeling spooky.");
+
+            document.getElementById("demo2").innerHTML = 3 + 10;
+            console.log(3+10);
+
+            document.getElementById("demo3").innerHTML = "Woohoo! I love to code! #javascript";
+            console.log("Woohoo! I love to code! #javascript");
+
+            document.getElementById("demo4").innerHTML = "3.14159";
+            console.log("3.14159");
+
+            document.getElementById("demo5").innerHTML = "I will be " + (20 + 3.5) +" years old when we start sending people to Mars.";
+            console.log("I will be " + (20 + 3.5) +" years old when we start sending people to Mars.");
+
+            document.getElementById("demo6").innerHTML = Math.floor(Math.random()*100);
+            //console.log(Math.floor(Math.random()*100));
+
+            document.getElementById("demo7").innerHTML = Math.ceil(23.6);
+            document.getElementById("demo8").innerHTML = "I'm a bit confused!";
+            document.getElementById("demo9").innerHTML = (Number.isInteger(document.getElementById("demo6").innerHTML));
+        </script>
+    </body>
+</html>
